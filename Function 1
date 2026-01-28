@@ -1,0 +1,14 @@
+# this program greets the user by their name after cleaning up any extra spaces and capitalizing it properly
+
+def main():
+    # output greeting
+    name = input("whats your name?")
+    hello(name)
+
+    # Output without passing the expected argument
+    hello()
+
+def hello(to='John Doe'):
+    print("Hello,", to)
+    
+    main()

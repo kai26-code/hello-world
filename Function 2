@@ -1,0 +1,11 @@
+# This program asks the user for a number and then prints the square of that number
+
+def main():
+    # Get user input
+    number = float(input("Please enter a number: "))
+    print(f"The square of {number} is {squared(number)}")
+    
+def square(n):
+        return n * n
+        
+main()
